@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<!-- Карусель -->
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="c:\кодки\Карусель сайт\miyamoto-musashi-5k-2560x1440-15210.jpg" alt="Miyamoto Musashi">
+      <div class="carousel-caption">
+        <h3>Miyamoto Musashi</h3>
+        <p>If you survive a long winter, the fresh wind of spring will blow after it and fill you with new strength.</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="c:\кодки\Карусель сайт\thorfinn-from-vinland-saga-5k-b0.jpg" alt="Thorfinn Carlsefni">
+      <div class="carousel-caption">
+        <h3>Thorfinn Carlsefni</h3>
+        <p>- Gold, silver and women mean nothing compared to what I'm looking for.</p>
+        <p>- Tell us what you're looking for.</p> 
+        <p>- Love.., it cannot be measured in silver, because love is what makes silver valuable. Without love, silver, gold, and women have no value.</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="c:\кодки\Карусель сайт\1359162.png" alt="Guts">
+      <div class="carousel-caption">
+        <h3>Guts</h3>
+        <p>We are human beings, fragile and mortal. However, even when we are hurt or tortured, our thirst for life still persists.</p>
+      </div>   
+    </div>
+  </div>
+
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+<!-- Кнопка для воспроизведения музыки -->
+<button id="musicButton">♫</button>
+
+<!-- Аудио -->
+<audio id="audioPlayer" loop>
+  <source src="c:\кодки\Карусель сайт\Chub1naGe, Levan Bantsadze, Giorgi Matkava -.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
